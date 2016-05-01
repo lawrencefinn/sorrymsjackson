@@ -20,4 +20,17 @@ import static com.caboose.io.sorrymsjackson.Json.*;
     ));
 ```
 Renders to
-`{"users":[{"name":"larry","age":13,"boop":null},{"name":"barry","age":24,"pants":false,"empty":[]}]}`
+```
+{
+	"users": [{
+		"name": "larry",
+		"age": 13,
+		"boop": null
+	}, {
+		"name": "barry",
+		"age": 24,
+		"pants": false,
+		"empty": []
+	}]
+}
+```
